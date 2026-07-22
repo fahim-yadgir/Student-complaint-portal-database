@@ -1,4 +1,5 @@
 create table complaints(
+complaint_id bigint unique,
 Title varchar (50) not null,
 Descriptions varchar (200) not null,
 Location varchar (50) not null,
